@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import { workoutOptions, fetchData, youtubeOptions } from '../utils/fetchData';
 import Detail from '../components/Detail';
 import workoutVideos from '../components/WorkoutVideos';
-import MoreExercises from '../components/MoreExercises';
+import MoreWorkouts from '../components/MoreWorkouts';
 
 const WorkoutDetail = () => {
   const [workoutDetail, setWorkoutDetail] = useState({});
@@ -43,7 +43,7 @@ const WorkoutDetail = () => {
     <Box sx={{ mt: { lg: '96px', xs: '60px' } }}>
       <Detail workoutDetail={workoutDetail} />
       <WorkoutVideos workoutVideos={workoutVideos} name={workoutDetail.name} />
-      <MoreExercises targetMuscleWorkouts={targetMuscleWorkouts} equipmentWorkouts={equipmentWorkouts} />
+      <MoreWorkouts targetMuscleWorkouts={targetMuscleWorkouts} equipmentWorkouts={equipmentWorkouts} />
     </Box>
   );
 };
