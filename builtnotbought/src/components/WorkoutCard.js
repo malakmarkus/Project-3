@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { Button, Stack, Typography } from "@mui/material";
 
 const WorkoutCard = ({ workout }) => {
-  return (
     <Link className="workout-card" to={`/workout/${workout.id}`}> 
     <img src={workout.gifUrl} alt={workout.name} Loading="lazy" />
     <Stack direction="row">
@@ -18,7 +17,6 @@ const WorkoutCard = ({ workout }) => {
         {workout.name}
     </Typography>
       </Link>
-  );
 };
 
 export default WorkoutCard
