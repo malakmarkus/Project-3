@@ -37,7 +37,7 @@ const WorkoutDetail = () => {
     fetchWorkoutData();
   }, [id]);
 
-  if (!workoutDetail) return <div>No Data</div>;
+  if (!workoutDetail) return <div>Could not find data</div>;
 
   return (
     <Box sx={{ mt: { lg: '96px', xs: '60px' } }}>
