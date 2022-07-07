@@ -14,10 +14,10 @@ import Footer from './components/Footer';
 const App = () => (
   <Box width="400px" sx={{ width: { xl: '1488px' } }} m="auto">
     <Navbar />
-    <ContactForm />
+    
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/" element={<ContactForm />} />
+      <Route path=".../pages/Contact.js" element={<ContactForm />} />
       <Route path="/workout/:id" element={<WorkoutDetail />} />
     </Routes>
     <Footer />
