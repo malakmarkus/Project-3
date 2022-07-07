@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Logo from "../assets/images/BNBlogo.png";
+import Logo from "../assets/images/BNBlogo.jpg";
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#fff3f4">
@@ -20,7 +20,7 @@ const Footer = () => (
       textAlign="center"
       pb="40px"
     >
-      Made with ❤️ by Build-Not-Bought© 💪
+      Made with ❤️ by Built-Not-Bought© 💪
     </Typography>
   </Box>
 );

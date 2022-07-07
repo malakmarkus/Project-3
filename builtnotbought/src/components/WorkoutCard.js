@@ -9,7 +9,7 @@ const WorkoutCard = ({ workout }) => {
         <Button sx={{ ml: '21px', color: '#fff', background: '#ffa9a9', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize'}}>
             {workout.bodyPart}
         </Button>
-        <Button sx={{ ml: '21px', color: #fff, background: '#fcc757', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize'}}>
+        <Button sx={{ ml: '21px', color: '#fff', background: '#fcc757', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize'}}>
         {workout.target}
         </Button>
     </Stack>
