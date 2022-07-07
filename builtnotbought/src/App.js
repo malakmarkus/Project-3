@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import './App.css';
 import WorkoutDetail from './pages/WorkoutDetail';
 import Home from './pages/Home';
-import ContactForm from './components/Contact';
+import ContactForm from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
