@@ -9,7 +9,7 @@ import Loader from './Loader';
 const Workouts = ({ workouts, setWorkouts, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [workoutsPerPage] = useState(6);
-
+const [apiWorkouts, setApiWorkouts] = useState([]);
   useEffect(() => {
     const fetchWorkoutsData = async () => {
       let workoutsData = [];
@@ -20,15 +20,16 @@ const Workouts = ({ workouts, setWorkouts, bodyPart }) => {
         workoutsData = await fetchData(`https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`, workoutOptions);
       }
 
-      setWorkouts(workoutsData);
-    };
+      setApiWorkouts(workoutsData);
 
+    };
+   
     fetchWorkoutsData();
   }, [bodyPart]);
 
   const indexOfLastWorkout = currentPage * workoutsPerPage;
   const indexOfFirstWorkout = indexOfLastWorkout- workoutsPerPage;
-  const currentWorkouts = workouts.slice(indexOfFirstWorkout, indexOfLastWorkout);
+  const currentWorkouts = apiWorkouts.slice(indexOfFirstWorkout, indexOfLastWorkout);
 
   const paginate = (event, value) => {
     setCurrentPage(value);

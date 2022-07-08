@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Button, Stack, Typography } from "@mui/material";
 
-const WorkoutCard = ({ workout }) => {
-    <Link className="workout-card" to={`/workout/${workout.id}`}> 
+const WorkoutCard = ({ workout})  => {
+    console.log(workout)
+   return (<Link className="workout-card" to={`/workout/${workout.id}`}> 
     <img src={workout.gifUrl} alt={workout.name} Loading="lazy" />
     <Stack direction="row">
         <Button sx={{ ml: '21px', color: '#fff', background: '#ffa9a9', fontSize: '14px', borderRadius: '20px', textTransform: 'capitalize'}}>
@@ -16,7 +17,7 @@ const WorkoutCard = ({ workout }) => {
     <Typography mL='21px' color='#000' fontWeight="bold" mt="11px" pb="10px" textTransform="capitalize" fontSize="22px">
         {workout.name}
     </Typography>
-      </Link>
+      </Link>)
 };
 
 export default WorkoutCard
