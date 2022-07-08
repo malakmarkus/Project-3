@@ -64,6 +64,8 @@ body {
 
 }
 
+
+
 .workout-card {
   width: 400px;
   height: 445px;
@@ -125,12 +127,14 @@ body {
 
   .hero-banner-img {
     display: none;
+
   }
 
   .workout-card {
     width: 320px;
   }
 
+ 
   .workout-video {
     width: 320px;
     height: 300px;
