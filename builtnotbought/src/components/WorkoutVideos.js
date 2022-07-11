@@ -4,7 +4,7 @@ import Loader from './Loader';
 
 const WorkoutVideos = ({ exerciseVideos, name }) => {
   if (!exerciseVideos.length) return <Loader />;
-
+ 
   return (
     <Box sx={{ marginTop: { lg: '203px', xs: '20px' } }} p="20px">
       <Typography sx={{ fontSize: { lg: '44px', xs: '25px' } }} fontWeight={700} color="#000" mb="33px">
@@ -14,7 +14,7 @@ const WorkoutVideos = ({ exerciseVideos, name }) => {
         {exerciseVideos?.slice(0, 3)?.map((item, index) => (
           <a
             key={index}
-            className="exercise-video"
+            className="workout-video"
             href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
             target="_blank"
             rel="noreferrer"
