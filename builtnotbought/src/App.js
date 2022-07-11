@@ -15,7 +15,7 @@ const App = () => (
 
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path=".../pages/Contact.js" element={<ContactForm />} />
+      <Route path="src/pages/Contact.js" element={<ContactForm />} />
       <Route path="/workout/:id" element={<WorkoutDetail />} />
     </Routes>
     <Footer />

@@ -31,6 +31,7 @@ const Navbar = () => (
     >
       <Link to="/" style={{ textDecoration: 'none', color: '#3A1212', borderBottom: '3px solid #FF2625' }}>Home</Link>
       <a href="#workouts" style={{ textDecoration: 'none', color: '#3A1212' }}>Workouts</a>
+      <Link to="src/pages/Contact.js" style={{ textDecoration: 'none', color: '#3A1212',}}>Contact</Link>
     </Stack>
   </Stack>
 );
