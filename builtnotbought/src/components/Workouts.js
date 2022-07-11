@@ -6,10 +6,10 @@ import { workoutOptions, fetchData } from '../utils/fetchData';
 import WorkoutCard from './WorkoutCard';
 import Loader from './Loader';
 
-const Workouts = ({ workouts, setWorkouts, bodyPart }) => {
+const Workouts = ({ workouts, bodyPart }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [workoutsPerPage] = useState(6);
-  const  [apiWorkouts, setApiWorkouts] = useState([]);
+const [apiWorkouts, setApiWorkouts] = useState([]);
   useEffect(() => {
     const fetchWorkoutsData = async () => {
       let workoutsData = [];

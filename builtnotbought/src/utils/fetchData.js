@@ -10,7 +10,7 @@ export const workoutOptions = {
     method: 'GET',
     headers: {
       'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com',
-      'X-RapidAPI-Key': '79911ce8e6mshcc7c845434d61c9p117c1ejsn418398fc764b',
+      'X-RapidAPI-Key': 'e67c5cd039msh004924313fed469p1a2d0ejsn2821dad80e6b',
     },
   };
   
