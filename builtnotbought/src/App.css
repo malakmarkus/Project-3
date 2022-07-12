@@ -1,8 +1,21 @@
-
 body {
-  font-family: 'Serif';
-  background-color: 'white';
+  color: #222;
+  background: #fff;
+  font: 100% system-ui;
 }
+a {
+  color: #0033cc;
+}
+
+
+  body {
+    color: #eee;
+    background: #121212;
+  }
+
+  body a {
+    color: #809fff;
+  }
 
 * {
   padding: 0px;
@@ -15,6 +28,68 @@ body {
   width: 0px;
 }
 
+.PT-form {
+  border: 3px solid var(--secondary-color);
+  background-color: rgba(253, 119, 235, 0.986);
+  padding: 20px;
+  color: var(--secondary-color);
+  width: 40%;
+  margin: 3.5%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  
+}
+
+.PT-form button:hover {
+  background-color: var(--tertiary-color);  
+}
+
+
+.form-input {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  width: 100%;
+  margin-bottom: 15px; 
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
+}
+
+.form-input:focus {
+  background-color: rgba(255,255,255, 1);
+  outline: none;
+}
+
+
+
+.PT-form button {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+} 
+
+.PT-form textarea {
+   width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.PT-form input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .right-arrow,
 .left-arrow {
   cursor: pointer;
@@ -24,7 +99,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FF2625;
+  color: skyBlue;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -57,18 +132,20 @@ body {
 .hero-banner-img {
   position: absolute;
   right: 40px;
-  top: 0px;
-  width: 700px;
-  height: 700px;
+  top: 50px;
+  width: 900px;
+  height:600px;
   margin-top: -330px;
-
+  background: dark;
 }
+
+
 
 .workout-card {
   width: 400px;
   height: 445px;
-  background: #fff;
-  border-top: 4px solid #FF2625;
+  background: dark;
+  border-top: 4px solid skyBlue;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -88,7 +165,7 @@ body {
   transition: 0.3s all ease-in-out;
 }
 
-.workout-card:hover,
+
 .bodyPart-card:hover {
   transform: scale(1.1, 1.1);
 }
@@ -125,12 +202,14 @@ body {
 
   .hero-banner-img {
     display: none;
+
   }
 
   .workout-card {
     width: 320px;
   }
 
+ 
   .workout-video {
     width: 320px;
     height: 300px;
@@ -143,3 +222,8 @@ body {
     width: 280px;
   }
 }
+
+
+
+
+

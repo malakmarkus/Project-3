@@ -6,9 +6,9 @@ import { workoutOptions, fetchData } from '../utils/fetchData';
 import WorkoutCard from './WorkoutCard';
 import Loader from './Loader';
 
-const Workouts = ({ workouts, setWorkouts, bodyPart }) => {
-  const [currentPage, setCurrentPage] = useState(1);
-  const [workoutsPerPage] = useState(6);
+const Workouts = ({ workouts, bodyPart }) => {
+const [currentPage, setCurrentPage] = useState(1);
+const [workoutsPerPage] = useState(6);
 const [apiWorkouts, setApiWorkouts] = useState([]);
   useEffect(() => {
     const fetchWorkoutsData = async () => {
@@ -41,7 +41,7 @@ const [apiWorkouts, setApiWorkouts] = useState([]);
 
   return (
     <Box id="workouts" sx={{ mt: { lg: '109px' } }} mt="50px" p="20px">
-      <Typography variant="h4" fontWeight="bold" sx={{ fontSize: { lg: '44px', xs: '30px' } }} mb="46px">Showing Results</Typography>
+      <Typography color="#FFEBCD" variant="h4" fontWeight="bold" sx={{ fontSize: { lg: '44px', xs: '30px' } }} mb="46px">New Me Loading ....</Typography>
       <Stack direction="row" sx={{ gap: { lg: '107px', xs: '50px' } }} flexWrap="wrap" justifyContent="center">
         {currentWorkouts.map((workout, idx) => (
           <WorkoutCard key={idx} workout={workout} />
