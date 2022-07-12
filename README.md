@@ -41,11 +41,16 @@ Responsive
 Interactive (should have a form for user input)
 
 ## Author
-Da'Quan Jordan
-Sophia Davis 
-Aniyah Butler
-Malak Markus
-Megan Beekman
+Da'Quan Jordan;
+
+Sophia Davis;
+
+Aniyah Butler;
+
+Malak Markus;
+
+Megan Beekman;
+
 Dominic Finch
 
 * Github: (https://github.com/malakmarkus/Project-3)
