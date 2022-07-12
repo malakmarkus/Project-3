@@ -31,7 +31,7 @@ const Navbar = () => (
       alignItems="flex-end"
       
     >
-      <Link to="/" style={{ textDecoration: 'none', color: 'purple', borderBottom: '3px solid #FF2625' }}>Home</Link>
+      <Link to="/" style={{ textDecoration: 'none', color: 'purple', borderBottom: '3px solid skyBlue' }}>Home</Link>
       <a href="#workouts" style={{ textDecoration: 'none', color: 'purple' }}>Workouts</a>
       <Link to="src/pages/Contact.js" style={{ textDecoration: 'none', color: 'purple',}}>Contact</Link>
     </Stack>

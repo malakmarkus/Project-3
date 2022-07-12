@@ -40,7 +40,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #FF2625;
+  color: skyBlue;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -86,7 +86,7 @@ a {
   width: 400px;
   height: 445px;
   background: dark;
-  border-top: 4px solid #FF2625;
+  border-top: 4px solid skyBlue;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
