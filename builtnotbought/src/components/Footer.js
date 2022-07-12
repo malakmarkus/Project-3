@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
 import Logo from "../assets/images/BNBlogo.jpg";
 
+
 const Footer = () => (
   <Box mt="80px" class="dark">
     <Stack
@@ -20,7 +21,7 @@ const Footer = () => (
       textAlign="center"
       pb="40px"
     >
-      Made with ❤️ by Built-Not-Bought© 💪
+      BNB© 💪
     </Typography>
   </Box>
 );
