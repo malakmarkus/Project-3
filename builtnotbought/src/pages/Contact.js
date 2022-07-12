@@ -38,32 +38,37 @@ function ContactForm() {
   };
 
   return (
-    <div>
-      <div>
-          <h2>Send Us a Message</h2>
-          <form>
-              <div>
-                  <input type="text"
-                      placeholder="Full Name" />
-              </div>
-              <div>
-                  <input type="text"
-                      placeholder="Your Email" />
-                  <span>Email field required</span>
-              </div>
-              <div>
-                  <input type="text"
-                      placeholder="Subject" />
-              </div>
-              <div>
-                  <textarea name="message"
-                      placeholder="Enter your message"></textarea>
-              </div>
+    <div class="">
+    <div class="">
+        <h2 class="">Send Us a Message</h2>
+        <form class="">
+            <div>
+                <input type="text"
+                    class=""
+                    placeholder="Full Name" />
+            </div>
+            <div>
+                <input type="text"
+                    class=""
+                    placeholder="Your Email" />
+                <span class="">Email field required</span>
+            </div>
+            <div>
+                <input type="text"
+                    class=""
+                    placeholder="Subject" />
+            </div>
+            <div>
+                <textarea name="message"
+                    class=""
+                    placeholder="Enter your message"></textarea>
+            </div>
 
-              <button>Send Form</button>
-          </form>
-      </div>
-  </div>
+            <button class="">Send
+                Form</button>
+        </form>
+    </div>
+</div>
   );
 }
 
