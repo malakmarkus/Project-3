@@ -84,12 +84,18 @@ a {
 
 .PT-form textarea {
     width: 100%;
-    height: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .PT-form input {
   width: 100%;
-  height: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .right-arrow,
@@ -167,10 +173,6 @@ a {
   transition: 0.3s all ease-in-out;
 }
 
-.workout-card:hover,
-{
-  transform: scale(1.1, 1.1);
-}
 
 .bodyPart-card:hover {
   transform: scale(1.1, 1.1);
