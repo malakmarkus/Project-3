@@ -6,7 +6,7 @@ import { workoutOptions, fetchData } from "../utils/fetchData";
 import WorkoutCard from "./WorkoutCard";
 import Loader from "./Loader";
 
-const Workouts = ({ workouts, setWorkouts, bodyPart }) => {
+const Workouts = ({ workouts, setWorkouts, muscle }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const [workoutsPerPage] = useState(6);
   const [apiWorkouts, setApiWorkouts] = useState([]);
@@ -14,14 +14,14 @@ const Workouts = ({ workouts, setWorkouts, bodyPart }) => {
     const fetchWorkoutsData = async () => {
       let workoutsData = [];
 
-      if (bodyPart === "all") {
+      if (muscle === "all") {
         workoutsData = await fetchData(
           "https://exercisedb.p.rapidapi.com/exercises",
           workoutOptions
         );
       } else {
         workoutsData = await fetchData(
-          `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`,
+          `https://exercisedb.p.rapidapi.com/exercises/bodyPart/${muscle}`,
           workoutOptions
         );
       }
@@ -33,7 +33,7 @@ const Workouts = ({ workouts, setWorkouts, bodyPart }) => {
     };
 
     fetchWorkoutsData();
-  }, [bodyPart]);
+  }, [muscle]);
 
   const indexOfLastWorkout = currentPage * workoutsPerPage;
   const indexOfFirstWorkout = indexOfLastWorkout - workoutsPerPage;
