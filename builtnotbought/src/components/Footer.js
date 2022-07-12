@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Logo from "../assets/images/BNBlogo.jpg";
+import Logo from "../assets/images/BNBlogo.png";
 
 
 const Footer = () => (

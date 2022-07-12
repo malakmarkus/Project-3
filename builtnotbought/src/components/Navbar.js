@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
 
-import Logo from "../assets/images/BNBlogo.jpg";
+import Logo from "../assets/images/BNBlogo.png";
 
 const Navbar = () => (
   <Stack
@@ -20,7 +20,7 @@ const Navbar = () => (
       <img
         src={Logo}
         alt="logo"
-        style={{ width: "48px", height: "48px", margin: "0px 20px" }}
+        style={{width: "200px", height: "41px" }}
       />
     </Link>
     <Stack
