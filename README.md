@@ -46,6 +46,7 @@ Sophia Davis
 Aniyah Butler
 Malak Markus
 Megan Beekman
+Dominic Finch
 
 * Github: (https://github.com/malakmarkus/Project-3)
 
