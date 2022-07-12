@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Box } from '@mui/material';
 
+
 import Workouts from '../components/Workouts';
 import SearchWorkouts from '../components/SearchWorkouts';
 import HeroBanner from '../components/HeroBanner';
