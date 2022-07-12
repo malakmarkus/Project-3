@@ -29,10 +29,11 @@ const Navbar = () => (
       fontFamily="Alegreya"
       fontSize="24px"
       alignItems="flex-end"
+      
     >
-      <Link to="/" style={{ textDecoration: 'none', color: 'text-red-700', borderBottom: '3px solid #FF2625' }}>Home</Link>
-      <a href="#workouts" style={{ textDecoration: 'none', color: '#3A1212' }}>Workouts</a>
-      <Link to="src/pages/Contact.js" style={{ textDecoration: 'none', color: '#3A1212',}}>Contact</Link>
+      <Link to="/" style={{ textDecoration: 'none', color: 'purple', borderBottom: '3px solid #FF2625' }}>Home</Link>
+      <a href="#workouts" style={{ textDecoration: 'none', color: 'purple' }}>Workouts</a>
+      <Link to="src/pages/Contact.js" style={{ textDecoration: 'none', color: 'purple',}}>Contact</Link>
     </Stack>
   </Stack>
 );
