@@ -8,7 +8,7 @@ import workoutVideos from '../components/WorkoutVideos';
 import MoreWorkouts from '../components/MoreWorkouts';
 
 const WorkoutDetail = () => {
-  const [workoutDetail, setWorkoutDetail] = useState({});
+  const [workoutDetail, setWorkoutDetail] = useState({name: ''});
   const [WorkoutVideos, setWorkoutVideos] = useState([]);
   const [targetMuscleWorkouts, setTargetMuscleWorkouts] = useState([]);
   const [equipmentWorkouts, setEquipmentWorkouts] = useState([]);
