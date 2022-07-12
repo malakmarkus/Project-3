@@ -4,19 +4,9 @@ import React, { useState } from 'react';
 import { validateEmail } from '../utils/helpers';
 
 function ContactForm() {
-  const [] = useState({ name: '', email: '', message: '' });
+  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
-  const [] = useState('');
-
-  <Stack
-  
-    direction="row "
-    justifyContent="space-around"
-    sx={
-      gap: { sm: "123px", xs: "40px" },
-      mt: { sm: "32px", xs: "20px" },
-      justifyContent: "none",
-    }
+  const [errorMessage] = useState('');
 
 
 
