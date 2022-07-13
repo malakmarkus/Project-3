@@ -7,7 +7,7 @@ a {
   color: #0033cc;
 }
 
-@media (prefers-color-scheme: dark) {
+
   body {
     color: #eee;
     background: #121212;
@@ -16,7 +16,6 @@ a {
   body a {
     color: #809fff;
   }
-}
 
 * {
   padding: 0px;

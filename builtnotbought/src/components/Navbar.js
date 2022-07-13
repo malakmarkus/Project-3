@@ -30,9 +30,11 @@ const Navbar = () => (
       fontSize="24px"
       alignItems="flex-end"
     >
+            <Link to="/contact" style={{ textDecoration: 'none', color: '#FFEBCD'}}>Contact Us</Link>
       <Link to="/" style={{ textDecoration: 'none', color: '#FFEBCD', borderBottom: '3px solid purple' }}>Home</Link>
       <a href="#workouts" style={{ textDecoration: 'none', color: '#FFEBCD' }}>Workouts</a>
-      <Link to="src/pages/Contact.js" style={{ textDecoration: 'none', color: '#FFEBCD',}}>Contact</Link>
+      <a href="#workouts" style={{ textDecoration: 'none', color: '#FFEBCD' }}>Workouts 2</a>
+
     </Stack>  
   </Stack>
 );
