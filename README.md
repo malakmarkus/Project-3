@@ -40,10 +40,8 @@ Use at least one 3rd-party APIs
 Responsive
 Interactive (should have a form for user input)
 
-## Author
+## Authors
 Da'Quan Jordan;
-
-Sophia Davis;
 
 Aniyah Butler;
 
@@ -51,7 +49,9 @@ Malak Markus;
 
 Megan Beekman;
 
-Dominic Finch
+Dominic Finch;
+
+Sophia Davis
 
 * Github: (https://github.com/malakmarkus/Project-3)
 
